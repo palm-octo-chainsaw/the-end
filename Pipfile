@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+pillow = "*"
+social-auth-app-django = "*"
+django-extensions = "*"
+werkzeug = "*"
+pyopenssl = "*"
+certifi = "*"
+easy-thumbnails = "*"
+
+[dev-packages]
+pylint = "*"
+autopep8 = "*"
+
+[requires]
+python_version = "3.8"
