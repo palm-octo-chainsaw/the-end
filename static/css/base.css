@@ -252,6 +252,8 @@ a.like, a.follow { float:right; margin-top:-8px; }
 }
 #people-list .info { text-align:center; }
 img.user-detail {
+    width: 180px;
+    height: 180px;
     border-radius:50%;
     float:left;
 }

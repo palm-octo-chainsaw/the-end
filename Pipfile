@@ -12,6 +12,7 @@ werkzeug = "*"
 pyopenssl = "*"
 certifi = "*"
 easy-thumbnails = "*"
+redis = "*"
 
 [dev-packages]
 pylint = "*"
