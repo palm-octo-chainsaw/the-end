@@ -44,10 +44,12 @@ def image_create(req):
 @login_required
 def image_detail(req, id, slug):
     image = get_object_or_404(Image, id=id, slug=slug)
-    total_views = r.incr(f'image:{image.id}:views')
+    # total_views = r.incr(f'image:{image.id}:views')
     # r.zincrby('image_ranking', 1, image.id)
 
-    return render(req, 'images/image/detail.html', {'section': 'images', 'image': image, 'total_views': total_views})
+    return render(req, 'images/image/detail.html', {'section': 'images', 'image': image,
+                                                    # total_views': total_views
+                                                    })
 
 
 @ajax_required
