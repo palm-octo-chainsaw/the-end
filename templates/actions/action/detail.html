@@ -1,4 +1,6 @@
 {% load thumbnail %}
+{% load i18n %}
+
 {% with user=action.user profile=action.user.profile %}
 <div class="action">
     <div class="images">
@@ -21,7 +23,7 @@
     </div>
     <div class="info">
         <p>
-            <span class="date">{{ action.created|timesince }} ago</span>
+            <span class="date">{{ action.created|timesince }} {% trans "ago" %}</span>
             <br />
             <a href="{{ user.get_absolute_url }}">
                 {{ user.first_name }}

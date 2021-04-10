@@ -1,19 +1,20 @@
 {% extends "base.html" %}
+{% load i18n %}
 
-{% block title %}Dashboard{% endblock %}
+{% block title %}{% trans "Dashboard" %}{% endblock %}
 
 {% block content %}
 
-<h1>Dashboard</h1>
+<h1>{% trans "Dashboard" %}</h1>
 
 {% with total_images_created=request.user.images_created.count %}
-<p>Welcome to your dashboard. You have bookmarked {{ total_images_created }} image{{ total_images_created|pluralize }}.</p>
+<p>{% blocktrans %}Welcome to your dashboard. You have bookmarked {{ total_images_created }} image{{ total_images_created|pluralize }}.{% endblocktrans %}</p>
 {% endwith %}
 
-<p>Drag the following button to your bookmarks toolbar to bookmark images from other websites → <a href="javascript:{% include "images/templates/launcher.js" %}" class="button">Bookmark it</a></p>
-<p>You can also <a href="{% url "edit" %}">edit your profile</a> or <a href="{% url "password_change" %}">change your password</a>.</p>
+<p>{% trans "Drag the following button to your bookmarks toolbar to bookmark images from other websites" %} → <a href="javascript:{% include "images/templates/launcher.js" %}" class="button">Bookmark it</a></p>
+<p>{% trans "You can also" %} <a class='btn btn-primary btn-sm' href="{% url "edit" %}">{% trans "edit your profile" %}</a> {% trans "or" %} <a class='btn btn-primary btn-sm' href="{% url "password_change" %}">{% trans "change your password" %}</a></p>
 
-<h2>What's happening</h2>
+<h2>{% trans "What's happening" %}</h2>
 <div id="action-list">
 {% for action in actions %}
 {% include "actions/action/detail.html" %}

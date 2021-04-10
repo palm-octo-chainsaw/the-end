@@ -4,15 +4,20 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-django = "*"
-pillow = "*"
+Django = "*"
+Pillow = "*"
 social-auth-app-django = "*"
-django-extensions = "*"
-werkzeug = "*"
-pyopenssl = "*"
+Werkzeug = "*"
+pyOpenSSL = "*"
 certifi = "*"
 easy-thumbnails = "*"
 redis = "*"
+pylint = "*"
+werkzeug = "*"
+pyopenssl = "*"
+django-extensions = "*"
+django-rosetta = "*"
+python-gettext = "*"
 
 [dev-packages]
 pylint = "*"

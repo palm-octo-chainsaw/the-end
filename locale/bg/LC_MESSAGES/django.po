@@ -1,0 +1,161 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-10 11:55+0000\n"
+"PO-Revision-Date: 2021-04-10 11:59+0000\n"
+"Last-Translator: b'  <admin@admin.com>'\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Translated-Using: django-rosetta 0.9.5\n"
+
+#: templates/account/dashboard.html:4 templates/account/dashboard.html:8
+msgid "Dashboard"
+msgstr "Моето табло"
+
+#: templates/account/dashboard.html:11
+#, python-format
+msgid ""
+"Welcome to your dashboard. You have bookmarked %(total_images_created)s "
+"image%(total_images_created|pluralize)s."
+msgstr ""
+"Добре дошли при вашето табло. Имате запазени %(total_images_created)s "
+"изпображения"
+
+#: templates/account/dashboard.html:14
+msgid ""
+"Drag the following button to your bookmarks toolbar to bookmark images from "
+"other websites"
+msgstr ""
+"Завлечете този бутон в на браузъра отметките, за да запазвате изображения от"
+" други сайтове"
+
+#: templates/account/dashboard.html:15
+msgid "You can also"
+msgstr "Може също"
+
+#: templates/account/dashboard.html:15
+msgid "edit your profile"
+msgstr "промени профила си"
+
+#: templates/account/dashboard.html:15
+msgid "or"
+msgstr "или"
+
+#: templates/account/dashboard.html:15
+msgid "change your password"
+msgstr "смени паролата"
+
+#: templates/account/dashboard.html:17
+msgid "What's happening"
+msgstr "Какво се случва"
+
+#: templates/account/edit.html:4 templates/account/edit.html:7
+msgid "Edit your account"
+msgstr "Промяна на акаунт"
+
+#: templates/account/edit.html:8
+msgid "You can edit your account using the following form:"
+msgstr "Може да промените акаута си със тази форма:"
+
+#: templates/account/edit.html:13
+msgid "Save changes"
+msgstr "Запази промените"
+
+#: templates/account/login.html:4 templates/account/login.html:7
+#: templates/base.html:35
+msgid "Log-in"
+msgstr "Вход"
+
+#: templates/account/login.html:8
+msgid "Please use the following form to log-in:"
+msgstr "Моля използвайте тази форма за логване:"
+
+#: templates/account/login.html:12
+msgid "Log in"
+msgstr "Вход"
+
+#: templates/account/register.html:4 templates/account/register.html:7
+msgid "Create an account"
+msgstr "Създай акаунт"
+
+#: templates/account/register.html:8
+msgid "Please, sign up using the following form:"
+msgstr "Моля регистрирайте се през тази форма:"
+
+#: templates/account/register.html:12
+msgid "Create my account"
+msgstr "Създай акаунт"
+
+#: templates/account/register_done.html:4
+#: templates/account/register_done.html:8
+msgid "Welcome"
+msgstr "Здравей"
+
+#: templates/account/register_done.html:9
+msgid "Your account has been successfully created. Now you can"
+msgstr "Вашият акаунт беше създаден успешно. Сега може да"
+
+#: templates/account/register_done.html:10
+msgid "log in"
+msgstr "влезете"
+
+#: templates/account/user/detail.html:12
+#, python-format
+msgid "follower%(total_followers|pluralize)s"
+msgstr "последователи"
+
+#: templates/account/user/detail.html:16
+msgid "Follow"
+msgstr "Последвай"
+
+#: templates/account/user/detail.html:18
+msgid "Unfollow"
+msgstr "Отпоследвай"
+
+#: templates/account/user/list.html:3 templates/account/user/list.html:5
+#: templates/base.html:24
+msgid "People"
+msgstr "Хора"
+
+#: templates/actions/action/detail.html:26
+msgid "ago"
+msgstr ""
+
+#: templates/base.html:14
+msgid "Bookmarks"
+msgstr "Bookmarks"
+
+#: templates/base.html:18
+msgid "My dashboard"
+msgstr "Моето табло"
+
+#: templates/base.html:21
+msgid "Images"
+msgstr "Изображения"
+
+#: templates/base.html:30
+msgid "Hello"
+msgstr "Здравей,"
+
+#: templates/base.html:31
+msgid "Logout"
+msgstr "Изход"
+
+#: templates/base.html:33
+msgid "Register"
+msgstr "Регистрация"
+
+#: templates/images/image/list.html:5
+msgid "Images bookmarked"
+msgstr "Запазени изображения"
